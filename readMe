@@ -1,0 +1,28 @@
+
+
+Steps need to be followed to execute the code as follows:
+
+	#1. Import accuWeather into Eclipse IDE
+	#2. Update & Build Project
+	#3. Run the comparatorLogic.java by using TestNG 
+	#4. Keep chrome driver libraries in "D:\\Selenium\\chromedriver.exe" path
+	
+	
+Following assumptions are taken while writing this code:
+
+	#1. Following values has been Hard coded in Java code.
+			City, API Key, valid range varience
+	#2. I have returned the logic by considering API returned temperature is in ° C.	
+	#3. I took valid range variance between API & Web returned temperature's as 1 ° C.
+	#4. I code has written with respective to chrome browser it can be extended to other type of browsers as well.
+
+
+The following improvements can be made to the existing Code:
+
+	#1. Reading the input values from properties file
+	#2. Use Log4j for logging 
+	#3. Applying POM Design Pattern on existing code Logic
+	#4. Integrating the TestNG with maven by using sure-fire-plug-in
+	#5. WebDriverManagerAPI can be taken instead of fixing the driver libraries.
+	
+  
